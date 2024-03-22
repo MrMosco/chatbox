@@ -6,6 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
+nltk.download('wordnet')
 # import spacy
 
 
